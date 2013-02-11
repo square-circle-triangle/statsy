@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'statsy'
 
 Gem::Specification.new do |gem|
-  gem.name          = "statsy"
+  gem.name          = "statsy-app"
   gem.version       = Statsy::VERSION
   gem.authors       = ["Alan Harper"]
   gem.email         = ["alan@sct.com.au"]
