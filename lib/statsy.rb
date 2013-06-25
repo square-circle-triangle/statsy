@@ -54,7 +54,5 @@ class Statsy
     response = net.start do |http|
       http.request(request)
     end
-
-    puts response.body
   end
 end
